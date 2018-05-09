@@ -1,0 +1,11 @@
+gm:
+  host: localhost
+  port: 9090
+  path: /quotes
+
+
+logging:
+  level: 
+    com.gm.spring.reactive: debug
+server:
+  port: 9091
