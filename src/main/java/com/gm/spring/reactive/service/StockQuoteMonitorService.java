@@ -29,7 +29,7 @@ public class StockQuoteMonitorService implements ApplicationListener<ContextRefr
                 .subscribe(stockQuote -> {
                     Mono<StockQuote> savedQuote = stockQuoteRepository.save(stockQuote);
 
-                    System.out.println("I saved a stockQuote! Id: " +savedQuote.block().getId());
+                    System.out.println("StockQuote saved with Id: " +savedQuote.block().getId());
                 });
     }
 }
