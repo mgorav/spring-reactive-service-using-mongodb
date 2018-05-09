@@ -17,6 +17,5 @@
 2. Spring BOOT 2.0.0.RELEASE (Spring 5.0.4 Webflux)
 3. Lombok 1.16.20
 4. MongoDB Latest Version using above mentioned docker command
-
-
+5. Robo 3T (mongoDB client for testing)
 
